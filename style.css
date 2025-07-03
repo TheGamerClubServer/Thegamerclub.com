@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Mojangles";
+  font-size: 300%;
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url(Test4.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+h3 {
+  color: red;
+  
+  text-align:center;
+  
+}
+
+h4 {
+  text-align:center;
+}
+
+@font-face {
+  font-family: "Mojangles";
+  src: url("mcfont.ttf") format("truetype");
+}
+
+h2 {
+  text-align: center;
+}
+
+.mc-button {
+  background-image: url(Button.png);
+  display: inline-block;
+  border-radius: 5px;
+  background-color: darkgray;
+  color: white;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.server-rules{
+  background-image: url(Test4.webp);
+  background-attachment: fixed;
+  
+  
+
+}
+
+.navbar{
+background-color: #a1a1a1; 
+  border-radius: 12px;
+  box-shadow: 0 10px 12px rgba(0,0,0,0.15);
+  text-align: center;
+font-size: 74px;
+  font-family: "Mojangles";
+  background-image: url(Button.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar a{
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+.navbar a:hover{
+  background-color: white;
+  color:black;
+ transition: background-color 1s ease, color 2s ease;
+  border-radius:5px;
+  transform: scale(1.1);
+
+}
