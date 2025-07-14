@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Server Rules</title>
+  <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class=server-rules>
+  <audio id="bca"><source src="ClickBtn.mp3" type="audio/mpeg"></audio>
   <div class = "navbar">
 
 
-    <a href="index.html">Home</a>
-    <a href="what i did today.html"> Rules</a>
-    <a href="https://app.minehut.com/" title="Warning: Goes to an external website!"> Minehut</a>
+    <a onclick="playaudio()" href="index.html">Home</a>
+    <a onclick="playaudio()" href="what i did today.html"> Rules</a>
+    <a onclick="playaudio()" href="https://app.minehut.com/" title="Warning: Goes to an external website!"> Minehut</a>
   </div>
   <h3>SERVER RULES</h3>
   <ul>
@@ -26,7 +27,13 @@
 
 
 
-
+    <script>
+      var x = document.getElementById("bca");
+      function playaudio(e) {
+       // e.preventDefault()
+        x.play();
+      }
+    </script>
     
     
 </body>
