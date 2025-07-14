@@ -9,14 +9,19 @@
 </head>
 
 <body>
-
+<audio id="bca"><source src="ClickBtn.mp3" type="audio/mpeg"></audio>
   <div class = "navbar">
 
-
-    <a href="index.html">Home</a>
-    <a href="what i did today.html"> Rules</a>
-    <a href="https://app.minehut.com/" title="Warning: Goes to an external website!"> Minehut</a>
+  
+    <a onclick="playaudio()" href="index.html">Home</a>
+  
+  
+    <a onclick="playaudio()" href="what i did today.html">Rules </a>
+  
+    <a onclick="playaudio()" href="https://app.minehut.com/" title="Warning: Goes to an external website!"> Minehut</a>
+  
   </div>
+  
   <div class='overlay'>
     <h2>TheGamerClub</h2>
 
@@ -30,6 +35,7 @@
     <iframe width="648" height="364.5"  src="https://www.youtube.com/embed/IAJGPKsBS2o" title="How to Create a Free Account on Minehut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     <h4>USEFULL COMMANDS</h4>
+    <ul>
     <li>/kit [gives you kits]</li>
     <li>/rtp [teleports you to a random spot in the world]</li>
     <li>/tpa (player) [sends a tp request to the player u selected]</li>
@@ -39,14 +45,21 @@
     <li>/sethome (home name) [creates a home tp]</li>
     <li>/home (home name) [tps you to the selected home]</li>
 
-    <h5></h5>
+    
 
     </ul>
 
-
-
-    
-  
+    <div onclick="playaudio()" class="overlay-img">
+      <img src="Technoblade.png" class="techno">
+        </div>
+  </div>
+    <script>
+      var x = document.getElementById("bca");
+      function playaudio(e) {
+       // e.preventDefault()
+        x.play();
+      }
+    </script>
 </body>
 
 
